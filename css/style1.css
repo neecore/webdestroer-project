@@ -1,0 +1,212 @@
+body
+{
+    background: #8dbec0;
+    margin: 0 auto;
+    padding: 0;
+    font: 16px/10px Arial,Tahoma, sans-serif;
+    width:1280px;
+    max-width:100%;
+    max-height:100%;
+}
+
+/*Шапка*/
+.site-header
+{
+    background: #8dbec0;
+    height: 130%;
+    padding-top: 1px;
+    
+}
+
+.mesage_err
+{
+    text-align:center;
+    color: #000000;
+    
+}
+
+.success_message
+{
+    text-align:center;
+    line-height:140%;
+}
+
+#link_logout
+{
+    margin-top:2%;
+    margin-bottom:2%;
+    max-width:100%;
+    text-align:center;
+}
+
+#link_logout a
+{
+    color: #FF1493;
+    font-size: 22px;
+}
+
+#link_logout a:hover
+{
+    color: #fff;
+}
+
+#form_register
+{
+    margin-top:10%;
+   
+}
+
+#form_auth
+{
+    margin-top:10%;
+
+}
+
+#wrapper {
+	width: 1280px;
+	margin: 0 auto;
+	max-width:100%;
+    overflow: hidden;
+}
+
+#wrapper ul li a
+{
+    color: #FF1493;
+    font-size: 130%;
+}
+
+#wrapper ul li a:hover
+{
+    color: #fff;
+}
+
+#valid_email_message
+{
+    margin-bottom:100%;
+}
+
+
+.site-header li
+{
+    list-style-type: none;
+    
+    font-size:20px;
+}
+
+.site-header a
+{
+    float: right;
+    color: #FFF;
+    height: 35px;
+    line-height: 20px;
+    margin: 0 0 0 3px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 1%;
+    
+}
+
+.site-header a:hover
+{
+    color: #FFC0CB;
+}
+
+.form tr td
+{
+    height: 20px;
+    
+}
+
+
+
+.about
+{
+    padding: 10px 20px 100px;
+    background-color: #8dbec0;
+    text-align: center;
+    max-width:100%;
+    margin:0 auto;
+}
+
+.about 
+{
+    line-height:140%;
+}
+
+.about
+{
+    margin-bottom:-50px;
+}
+
+.image
+{
+    
+    
+    
+    max-width:100%;
+    max-height:100%;
+}
+
+.image h2
+{
+    position: absolute;
+    
+    font-size: 30px;
+    top:250px;
+    left:0px;
+    width: 100%;
+}
+
+.image p
+{
+    font-family:monospace;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: -2px;
+    word-spacing:5px;
+    font-weight:100;
+    top:290px;
+    left:0px;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+/* Подвал */
+
+#footer
+{
+
+    background-color: #8dbec0;
+    text-align: center;
+	position: relative;
+	
+	margin:0 auto;
+}
+
+.spoiler-title {
+    cursor:pointer;
+    color: #333;  
+    border-bottom: 2px dashed black;
+    margin: 0 auto;
+   }
+.spoiler-title:hover {
+    
+    color: #fff;
+   }
+.spoiler-body
+{
+    display:none;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height:140%;
+}
+
+#copy {
+	margin:0 auto;
+}
